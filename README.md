@@ -42,5 +42,10 @@ Learning-based Multi-View Stereo (MVS) methods aim to predict depth maps for a s
 ## Citation
 If you find this work useful in your research, please consider citing the following preprint:
 ```bibtex
-
+@article{jiang2025monomvsnet,
+  title={MonoMVSNet: Monocular Priors Guided Multi-View Stereo Network},
+  author={Jiang, Jianfei and Liu, Qiankun and Yu, Haochen and Liu, Hongyuan and Wang, Liyong and Chen, Jiansheng and Ma, Huimin},
+  journal={arXiv preprint arXiv:2507.11333},
+  year={2025}
+}
 ```
