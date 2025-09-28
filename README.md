@@ -20,6 +20,8 @@ Please refer to [RRT-MVS](https://github.com/JianfeiJ/RRT-MVS).
 
 You need download pretrained weights [depth_anything_v2_vits](https://drive.google.com/file/d/1M1JQWZ9jEa1H0lblt3B6yJU_LyjqF60_/view?usp=drive_link) and [TEED_model](https://drive.google.com/file/d/1j8wRHMozt_eJwBjs1JXxTDRboP_lKiSp/view?usp=drive_link) , then place them in the folder `pre_trained_weights`
 
+To reproduce the GPU memory consumption described in the paper, you need install `xformers`.
+
 ## Training
 
 ### Training on DTU
