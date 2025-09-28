@@ -99,15 +99,4 @@ If you find this work useful in your research, please consider citing the follow
 ```
 
 ## Acknowledgements
-Our work is partially based on these opening source work: 
-- [MVSNet](https://github.com/YoYo000/MVSNet)
-- [MVSNet-pytorch](https://github.com/xy-guo/MVSNet_pytorch)
-- [CasMVSNet](https://github.com/alibaba/cascade-stereo)
-- [MVSTER](https://github.com/JeffWang987/MVSTER)
-- [ET-MVSNet](https://github.com/TQTQliu/ET-MVSNet)
-- [MVSFormer++](https://github.com/maybeLx/MVSFormerPlusPlus)
-- [RRT-MVS](https://github.com/JianfeiJ/RRT-MVS)
-- [Depth Anything V2](https://github.com/DepthAnything/Depth-Anything-V2)
-- [TEED](https://github.com/xavysp/TEED)
-
-We appreciate their contributions to the MVS community.
+Our work is partially based on these opening source works [RRT-MVS](https://github.com/JianfeiJ/RRT-MVS), [TransMVSNet](https://github.com/megvii-research/TransMVSNet), [MVSFormer++](https://github.com/maybeLx/MVSFormerPlusPlus), [Depth Anything V2](https://github.com/DepthAnything/Depth-Anything-V2), and [TEED](https://github.com/xavysp/TEED). We appreciate their contributions to the MVS community.
