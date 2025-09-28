@@ -77,12 +77,12 @@ For quantitative evaluation, you can upload your point clouds to [Tanks and Temp
 ---
 ### **Quantitative Results on Tanks-and-Temples**
 
-| T&T (Inter.) | Mean ↑ | Family | Francis | Horse | Lighthouse | M60 | Panther | Playground | Train |
+| Inter. | Mean ↑ | Family | Francis | Horse | Lighthouse | M60 | Panther | Playground | Train |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | Ours | 68.63 | 82.38 | 72.89 | 62.80 | 70.49 | 65.79 | 68.54 | 65.54 | 60.59 |
 
 
-| T&T (Adv.) | Mean ↑ | Auditorium | Ballroom | Courtroom | Museum | Palace | Temple |
+| Adv. | Mean ↑ | Auditorium | Ballroom | Courtroom | Museum | Palace | Temple |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | Ours | 43.58 | 30.33 | 46.76 | 42.90 | 56.31 | 37.28 | 47.88 |
 
@@ -99,4 +99,4 @@ If you find this work useful in your research, please consider citing the follow
 ```
 
 ## Acknowledgements
-Our work is partially based on these opening source works [RRT-MVS](https://github.com/JianfeiJ/RRT-MVS), [TransMVSNet](https://github.com/megvii-research/TransMVSNet), [MVSFormer++](https://github.com/maybeLx/MVSFormerPlusPlus), [Depth Anything V2](https://github.com/DepthAnything/Depth-Anything-V2), and [TEED](https://github.com/xavysp/TEED). We appreciate their contributions to the MVS community.
+Our work is partially based on these opening source works [ET-MVSNet](https://github.com/TQTQliu/ET-MVSNet), [TransMVSNet](https://github.com/megvii-research/TransMVSNet), [MVSFormer++](https://github.com/maybeLx/MVSFormerPlusPlus), [Depth Anything V2](https://github.com/DepthAnything/Depth-Anything-V2), and [TEED](https://github.com/xavysp/TEED). We appreciate their contributions to the MVS community.
