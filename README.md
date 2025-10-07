@@ -7,14 +7,14 @@
 > Institute: University of Science and Technology Beijing  
 > ICCV 2025  
 
-## Abstract
+## 😀Abstract
 Learning-based Multi-View Stereo (MVS) methods aim to predict depth maps for a sequence of calibrated images to recover dense point clouds. However, existing MVS methods often struggle with challenging regions, such as textureless regions and reflective surfaces, where feature matching fails. In contrast, monocular depth estimation inherently does not require feature matching, allowing it to achieve robust relative depth estimation in these regions. To bridge this gap, we propose MonoMVSNet, a novel monocular feature and depth guided MVS network that integrates powerful priors from a monocular foundation model into multi-view geometry. Firstly, the monocular feature of the reference view is integrated into source view features by the attention mechanism with a newly designed cross-view position encoding. Then, the monocular depth of the reference view is aligned to dynamically update the depth candidates for edge regions during the sampling procedure. Finally, a relative consistency loss is further designed based on the monocular depth to supervise the depth prediction. Extensive experiments demonstrate that MonoMVSNet achieves state-of-the-art performance on the DTU and Tanks-and-Temples datasets, ranking first on the Tanks-and-Temples Intermediate and Advanced benchmarks.
 
 <p align="center">
 <img src="assets/overview.png" width="100%">
 </p>
 
-## Installation & Data Preparation
+## 👋Installation & Data Preparation
 
 Please refer to [RRT-MVS](https://github.com/JianfeiJ/RRT-MVS).
 
@@ -22,7 +22,7 @@ You need download pretrained weights [depth_anything_v2_vits](https://drive.goog
 
 To reproduce the GPU memory consumption described in the paper, you need install `xformers`.
 
-## Training
+## 🦴Training
 
 ### Training on DTU
 
@@ -41,7 +41,7 @@ bash scripts/train_bld.sh
 After finetuning, you will get model checkpoints in `./checkpoints/bld_ft`.
 
 
-## Testing
+## 👀Testing
 
 ### Testing on DTU
 
@@ -64,7 +64,7 @@ bash scripts/test_tnt_adv.sh
 ``` 
 For quantitative evaluation, you can upload your point clouds to [Tanks and Temples benchmark](https://www.tanksandtemples.org/).
 
-## **Results**
+## 💪**Results**
 
 ### **Quantitative Results on DTU**
 
@@ -87,7 +87,7 @@ For quantitative evaluation, you can upload your point clouds to [Tanks and Temp
 | Ours | 43.58 | 30.33 | 46.76 | 42.90 | 56.31 | 37.28 | 47.88 |
 
 
-## Citation
+## 🤝Citation
 If you find this work useful in your research, please consider citing the following preprint:
 ```bibtex
 @article{jiang2025monomvsnet,
@@ -98,5 +98,5 @@ If you find this work useful in your research, please consider citing the follow
 }
 ```
 
-## Acknowledgements
+## 🫶Acknowledgements
 Our work is partially based on these opening source works [ET-MVSNet](https://github.com/TQTQliu/ET-MVSNet), [TransMVSNet](https://github.com/megvii-research/TransMVSNet), [MVSFormer++](https://github.com/maybeLx/MVSFormerPlusPlus), [Depth Anything V2](https://github.com/DepthAnything/Depth-Anything-V2), and [TEED](https://github.com/xavysp/TEED). We appreciate their contributions to the MVS community.
