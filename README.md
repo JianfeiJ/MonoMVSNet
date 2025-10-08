@@ -111,7 +111,6 @@ If you find this work useful in your research, please consider citing the follow
   journal={Pattern Recognition},
   pages={112500},
   year={2025},
-  publisher={Pergamon}
 }
 ```
 
