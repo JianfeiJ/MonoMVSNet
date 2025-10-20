@@ -88,15 +88,17 @@ For quantitative evaluation, you can upload your point clouds to [Tanks and Temp
 
 
 ## 🤝Citation
-If you find this work useful in your research, please consider citing the following preprints:
+If you find this work useful in your research, please consider citing the following:
 ```bibtex
-@article{jiang2025monomvsnet,
-  title={MonoMVSNet: Monocular Priors Guided Multi-View Stereo Network},
-  author={Jiang, Jianfei and Liu, Qiankun and Yu, Haochen and Liu, Hongyuan and Wang, Liyong and Chen, Jiansheng and Ma, Huimin},
-  journal={arXiv preprint arXiv:2507.11333},
-  year={2025}
+@inproceedings{monomvsnet,
+    author    = {Jiang, Jianfei and Liu, Qiankun and Yu, Haochen and Liu, Hongyuan and Wang, Liyong and Chen, Jiansheng and Ma, Huimin},
+    title     = {MonoMVSNet: Monocular Priors Guided Multi-View Stereo Network},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2025},
+    pages     = {27806-27816}
 }
-@inproceedings{jiang2025rrt,
+@inproceedings{rrt-mvs,
   title={RRT-MVS: Recurrent Regularization Transformer for Multi-View Stereo},
   author={Jiang, Jianfei and Wang, Liyong and Yu, Haochen and Hu, Tianyu and Chen, Jiansheng and Ma, Huimin},
   booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
@@ -105,7 +107,7 @@ If you find this work useful in your research, please consider citing the follow
   pages={3994--4002},
   year={2025}
 }
-@article{jiang2025efficient,
+@article{di-mvs++,
   title={Efficient Multi-View Stereo with Depth-Aware Iterations and Hybrid Loss Strategy},
   author={Jiang, Jianfei and Ma, Huimin},
   journal={Pattern Recognition},
