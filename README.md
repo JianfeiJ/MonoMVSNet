@@ -14,7 +14,7 @@ Learning-based Multi-View Stereo (MVS) methods aim to predict depth maps for a s
 <img src="assets/overview.png" width="100%">
 </p>
 
-## 👋Installation & Data Preparation
+## 🚀Installation & Data Preparation
 
 Please refer to [RRT-MVS](https://github.com/JianfeiJ/RRT-MVS).
 
