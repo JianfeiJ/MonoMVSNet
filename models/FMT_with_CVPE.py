@@ -408,13 +408,12 @@ class FMT_with_pathway(nn.Module):
 
         intrinsics = proj_matrices[:, :, 1].clone()
         intrinsics = intrinsics[:, :, :3, :3]
-        intrinsics[:, :, 0, :] *= float(w)
-        intrinsics[:, :, 1, :] *= float(h)
         camk = torch.eye(4).view(1, 1, 4, 4).repeat(intrinsics.shape[0], intrinsics.shape[1], 1, 1).to(intrinsics.device).float()
         camk[:, :, :3, :3] = intrinsics
         extrinsics = proj_matrices[:, :, 0].clone()
+        i2w = torch.inverse(extrinsics)
         camk = torch.inverse(camk)
-        img2world = torch.matmul(extrinsics, camk)
+        img2world = torch.matmul(i2w, camk)
         img2world = torch.unbind(img2world, 1)
         ref_img2world = img2world[0]
         src_img2worlds = img2world[1:]
