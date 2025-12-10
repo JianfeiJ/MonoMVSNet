@@ -14,7 +14,6 @@ joblib==1.4.2
 kiwisolver==1.4.7
 kornia==0.7.4
 kornia_rs==0.1.7
-mamba-ssm==2.0.3
 Markdown==3.7
 MarkupSafe==3.0.2
 matplotlib==3.9.2
