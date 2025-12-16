@@ -14,13 +14,21 @@ Learning-based Multi-View Stereo (MVS) methods aim to predict depth maps for a s
 <img src="assets/overview.png" width="100%">
 </p>
 
-## 🚀Installation & Data Preparation
+## 🚀Installation
+
+```bash
+conda create -n monomvsnet python=3.10.8
+conda activate monomvsnet
+pip install -r requirements.txt
+```
+To reproduce the GPU memory consumption described in the paper, you need install `xformers`.
+
+## ⭐Data Preparation
 
 Please refer to [RRT-MVS](https://github.com/JianfeiJ/RRT-MVS).
 
 You need download pretrained weights [depth_anything_v2_vits](https://drive.google.com/file/d/1M1JQWZ9jEa1H0lblt3B6yJU_LyjqF60_/view?usp=drive_link) and [TEED_model](https://drive.google.com/file/d/1j8wRHMozt_eJwBjs1JXxTDRboP_lKiSp/view?usp=drive_link) , then place them in the folder `pre_trained_weights`
 
-To reproduce the GPU memory consumption described in the paper, you need install `xformers`.
 
 ## 🦴Training
 
