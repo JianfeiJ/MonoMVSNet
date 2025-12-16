@@ -106,22 +106,6 @@ If you find this work useful in your research, please consider citing the follow
     year      = {2025},
     pages     = {27806-27816}
 }
-@inproceedings{rrt-mvs,
-  title={RRT-MVS: Recurrent Regularization Transformer for Multi-View Stereo},
-  author={Jiang, Jianfei and Wang, Liyong and Yu, Haochen and Hu, Tianyu and Chen, Jiansheng and Ma, Huimin},
-  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
-  volume={39},
-  number={4},
-  pages={3994--4002},
-  year={2025}
-}
-@article{di-mvs++,
-  title={Efficient Multi-View Stereo with Depth-Aware Iterations and Hybrid Loss Strategy},
-  author={Jiang, Jianfei and Ma, Huimin},
-  journal={Pattern Recognition},
-  pages={112500},
-  year={2025},
-}
 ```
 
 ## 🫶Acknowledgements
